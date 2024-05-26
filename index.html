@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,169 @@
     <link rel="preload" href="styles/styles.css" as="style">
     <link rel="stylesheet" href="styles/normalice.css">
     <link rel="preload" href="styles/normalice.css" as="style">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-    </header>
 
-    <main>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="Image/logo.png" alt="Logo de la pagina">
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1 class="contenedor__productos">Nuestos prodcutos</h1>
+        <div class="grid">
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/1.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">vuejs</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/2.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">angular</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/3.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">react</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/4.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">redux</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/5.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">node</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/6.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">sass</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/7.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">html</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/8.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">git hub</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/9.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">bulma</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/10.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">type script</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/11.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">drupal</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/12.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">java script</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/13.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">graph ql</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="Image/14.jpg" alt="Imagen no encontrada">
+                    <div>
+                        <p class="producto__nombre">word press</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </main>
 
-    <footer>
+    <footer class="footer">
+        <p class="footer__texto">Front Shop - Todos los derechos reservados 2024</p>
     </footer>
 </body>
+
 </html>
