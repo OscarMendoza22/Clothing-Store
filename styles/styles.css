@@ -1,4 +1,67 @@
-h1 {
+:root{
+    --Primario: #9c27b0;
+    --PrimarioOscuro: #89119d;
+    --Secundario: #ffce00;
+    --SecundarioOscuro: rgb(233,287,2);
+    --SecundarioOscuroP: rgb(233, 255, 2);
+    --Blanco: #fff;
+    --Negro: #000;
+
+    --fuentePrincipal: font-family: "Staatliches", sans-serif;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* Estilos Globales */
+
+body{
+    background-color: var(--Primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Blanco);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.contenedor{
+    max-width: 1200rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3{
     text-align: center;
-    background-color: blue;
+    color: var(--Secundario);
+    font-family: var(--fuentePrincipal);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
 }
